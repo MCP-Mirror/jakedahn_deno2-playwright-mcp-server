@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-env --allow-run --allow-sys --allow-read main.ts"
+  },
+  "imports": {
+    "@modelcontextprotocol/sdk": "npm:@modelcontextprotocol/sdk@^1.0.1",
+    "@std/encoding": "jsr:@std/encoding@^1.0.5",
+    "playwright": "npm:playwright@^1.49.0"
+  }
+}
