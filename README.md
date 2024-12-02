@@ -23,7 +23,7 @@ To invoke the playwright-server binary, you need to update your `~/Library/Appli
 {
   "mcpServers": {
     "playwright": {
-      "command": "/Users/jakedahn/Desktop/deno2-playwright-mcp-server/main.ts"
+      "command": "/path/to/deno2-playwright-mcp-server/playwright-server"
     }
   }
 }
