@@ -1,4 +1,4 @@
-#!/usr/bin/env -S deno run --allow-net --allow-env --allow-run
+#!/usr/bin/env -S deno run --watch --allow-net --allow-env --allow-run --allow-sys --allow-read --allow-write
 
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
